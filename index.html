@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-.iframe-fullscreen {
-    width: 100%;
-    height: 100vh; /* or 100% if parent has defined height */
-    border: none;
-    margin: 0;
-    padding: 0;
-    display: block;
-}
-</style>
+ 
+ <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        
+        .seamless-iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+    </style>
+
 </head>
 <body>
-  <iframe src="https://wp.bdevs.net/progery/home-02/" class="iframe-fullscreen"></iframe>
+  <iframe src="https://wp.bdevs.net/progery/home-02/" class="seamless-iframe"></iframe>
 </body>
 </html>
